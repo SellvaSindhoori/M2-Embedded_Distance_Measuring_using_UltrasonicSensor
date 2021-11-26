@@ -12,7 +12,7 @@ There are many types of fire alarmsystems each suited to different building type
 ## Features
     1.) Gas Sensors
     2.) ATMEGA 368
-    3.) LED Screen
+    3.) LCD Screen
     4.) Bread Board
     5.) Registers
     6.) Buffer
