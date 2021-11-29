@@ -14,7 +14,7 @@ The sensor module consists of an ultrasonic transmitter, receiver and control ci
    * The module sends eight 40 KHz signals automatically, and then detects whether pulse is received or not.
    * If the signal is received, then it is through high level. The time of high duration is the time gap between sending and receiving the signal.
 ## Defining our System
-he module works on the natural phenomenon of ECHO of sound. A pulse is sent for about 10us to trigger the module. After which the module automatically sends 8 cycles of 40 KHz ultrasound signal and checks its echo. The signal after striking with an obstacle returns back and is captured by the receiver. Thus the distance of the obstacle from the sensor is simply calculated by the formula given as
+The module works on the natural phenomenon of ECHO of sound. A pulse is sent for about 10us to trigger the module. After which the module automatically sends 8 cycles of 40 KHz ultrasound signal and checks its echo. The signal after striking with an obstacle returns back and is captured by the receiver. Thus the distance of the obstacle from the sensor is simply calculated by the formula given as
 
             Distance= (time x speed)/2.
 
