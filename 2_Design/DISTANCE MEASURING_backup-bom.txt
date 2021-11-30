@@ -1,8 +1,0 @@
-
-Circuit: DISTANCE MEASURING_backup.simu
-
-Bill of Materials:
-
-Hd44780-10 : Hd44780   
-SR04-4 : SR04   
-atmega328-1 : atmega328   
