@@ -4,7 +4,7 @@ BUILD_DIR = Build
 
 # All Source code files
 SRC = project_main.c\
-src/ultra.c\
+src/ultra.c
 
 
 # All header file paths
