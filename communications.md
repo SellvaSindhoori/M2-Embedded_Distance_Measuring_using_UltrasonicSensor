@@ -1,4 +1,4 @@
-# COMMUNICATION
+# COMMUNICATION PROTOCOLS
 ## UART
 In UART communication, two UARTs communicate directly with each other. The transmitting UART converts parallel data from a controlling device like a CPU into serial form, transmits it in serial to the receiving UART, which then converts the serial data back into parallel data for the receiving device.
 
