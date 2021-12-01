@@ -2,9 +2,9 @@
 Ultrasonic sensors can measure the distance to a wide range of objects regardless of shape, color or surface texture. They are also able to measure an approaching or receding object. By using “non-contact” ultrasonic sensors, distances can be measured without damage to the object. They’re easy to use and, in many cases, can be used in place of other traditional sensors when the environmental conditions make traditional sensors unusable.
 ## LCD DISPLAY
 ### IN ACTION
-|ON|OFF|
+|OFF|ON|
 |:--:|:--:|
-|![ON](3_Implementation/Simulation/ON.png)|![OFF](3_Implementation/Simulation/OFF.png/OFF1.png)|
+|![OFF](3_Implementation/Simulation/OFF1.png/OFF.png)|![ON](3_Implementation/Simulation/ON.png)|
 
 ## CI and Code Quality
 
@@ -16,4 +16,3 @@ Ultrasonic sensors can measure the distance to a wide range of objects regardles
  * Simul IDE
  * Arduino IDE
  * Linux
-
