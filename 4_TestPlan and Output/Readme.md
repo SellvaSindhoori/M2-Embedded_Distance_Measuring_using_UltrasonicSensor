@@ -42,6 +42,22 @@ MCUCR: MCU control Register
 The second instruction defines that any logical change at the INT0/PIND2 Pin will cause the microcontroller.
 
 Thus microcontroller will be interrupted when logic goes from 0 to 1 or from 1 to 0.
+## When Echo Pin goes from low to high (0 to 1)
+
+We have previously defined a variable ‘i’ that had initial value 0. When the echo PIN goes high the controller is interrupted and the ISR is executed. The condition is checked with the ‘if’ statement and the microcontroller starts the counter and also sets the value of ‘i’ to 1.
+
+TCCR stands for TIMER COUNTER CONTROL REGITER. Setting its CS10 bit to 1 starts the timer with a prescaling of 1. The count value is stored in a register called TCNT.
+
+## When Echo pin goes form high to low (1 to 0)
+
+When the echo pin goes low, microcontroller is interrupted again and again the ISR is executed. This time value of ‘i’ is 1 (We had changed it from 0 to 1 when we had started the timer).
+
+The ‘if’ condition will be checked again. This time the timer will be stopped by setting TCCR to zero.The value that was counted will be saved in TCNT register. We will store that value in a previously defined variable ‘pulse’ and clear/ reset the value of TCNT.
+
+
+
+
+
 
 
 
