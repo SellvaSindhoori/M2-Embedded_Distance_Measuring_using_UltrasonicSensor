@@ -3,7 +3,7 @@ Ultrasonic sensors can measure the distance to a wide range of objects regardles
 ## LCD DISPLAY
 ### IN ACTION
 |OFF|ON|
-|-----:|-----:|
+|:--:|:--:|
 |![OFF](3_Implementation/simulation/off lcd(1).png/off lcd(2).png)|![ON](3_Implementation/simulation/LCD ON.png)|
 
 
